@@ -6,15 +6,15 @@ A complete end-to-end deep learning project that detects tomato leaf diseases fr
 
 ## 📘 Notebooks Overview
 
-#### 1️⃣ Dataset Preparation
-
-**note book : 01_dataset_preparation.ipynb** 
-
+#### **1️⃣ Dataset Preparation**
+ 
+ note book : 01_dataset_preparation.ipynb
+ 
 Detailed dataset explanation and processing logic are fully documented inside this notebook.
 
-#### 2️⃣ Model Training
+#### **2️⃣ Model Training**
 
-**Notebook: 02_model_training.ipynb**
+Notebook: 02_model_training.ipynb
 
 Key steps:
 	
@@ -35,7 +35,7 @@ Key steps:
 📌 The trained model is saved as:  model/tomato_model.h5 
 
 **note** : trained model  was not added in repository due to its large size and was added in **releases**👈
-please refer in my ***releases*** to understand about deployment and trained model.
+please refer in my ***releases*** to understand how to load trained model for testing my deployed streamlite application.
 
 ---
 
@@ -49,6 +49,17 @@ app.py loads the trained model and provides:
 	•	Real-time disease prediction
 	•	Confidence score
 	•	Disease description and management tips
+
+##  deployed streamlit webapp prediction Pipeline
+	1.	User uploads an tomato leaf image(.png etc)
+	2.	Image is resized to training input size
+	3.	Image is normalized
+	4.	Model predicts disease class
+	5.	Output includes:
+	•	Disease name
+	•	Confidence score
+	•	Disease information
+
 
 ---
 ## 🛠️ Tech Stack
