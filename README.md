@@ -1,33 +1,71 @@
-🍅 Tomato Leaf Disease Detection using Deep Learning
+# 🍅 Tomato Leaf Disease Detection using Deep Learning
 
 A complete end-to-end deep learning project that detects tomato leaf diseases from images using a CNN model, trained on a reorganized subset of the PlantVillage dataset, and deploying the trained model as a web application using Streamlit.
 
-📘 Notebooks Overview
+---
 
-1️⃣ Dataset Preparation
+## 📘 Notebooks Overview
 
-note book : 01_dataset_preparation.ipynb 
+#### 1️⃣ Dataset Preparation
+
+**note book : 01_dataset_preparation.ipynb** 
 
 Detailed dataset explanation and processing logic are fully documented inside this notebook.
 
-2️⃣ Model Training
+#### 2️⃣ Model Training
 
-note book : 02_model_training.ipynb
-	•	Builds and trains a CNN model using TensorFlow / Keras
-	•	Evaluates performance using:
-	•	Accuracy & loss curves
-	•	Confusion matrix
-	•	Saves the trained model for deployment 
+**Notebook: 02_model_training.ipynb**
 
-note : trained model 
+Key steps:
+	
+	•	Image loading using ImageDataGenerator
+	•	CNN architecture with:
+	•	Convolution layers
+	•	ReLU activation
+	•	MaxPooling
+	•	Flatten
+	•	Dense layers
+	•	Training with:
+	•	Categorical Crossentropy
+	•	Adam optimizer
+	•	Evaluation using:
+	•	Accuracy & Loss curves
+	•	Confusion Matrix
 
-🚀 Deployment (Streamlit App)
+📌 The trained model is saved as:  model/tomato_model.h5 
 
-File : app.py
+**note** : trained model  was not added in repository due to its large size and was added in **releases**👈
+please refer in my ***releases*** to understand about deployment and trained model.
+
+---
+
+## 🚀 Deployment (Streamlit App)
+
+**File : app.py**
 
 app.py loads the trained model and provides:
+    
 	•	Image upload interface
 	•	Real-time disease prediction
 	•	Confidence score
 	•	Disease description and management tips
 
+---
+## 🛠️ Tech Stack
+    •	Python
+	•	TensorFlow / Keras
+	•	NumPy
+	•	Matplotlib
+	•	Streamlit
+	•	Jupyter Notebook
+---
+## Conclusion
+
+This project demonstrates:
+	
+	•	Real-world dataset handling
+	•	Proper ML workflow separation
+	•	CNN-based image classification
+	•	End-to-end deployment
+
+It is designed to be scalable, reproducible, and production-ready.
