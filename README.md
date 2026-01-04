@@ -43,7 +43,7 @@ please refer in my ***releases*** to understand how to load trained model for te
 
 **File : app.py**
 
-app.py loads the trained model and provides:
+app.py loads the trained model from model/ directory and provides:
     
 	•	Image upload interface
 	•	Real-time disease prediction
