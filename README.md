@@ -1,6 +1,6 @@
 # ☘️ Tomato Leaf Disease Detection using Deep Learning
 
-A complete end-to-end deep learning project that detects tomato leaf diseases from images using a CNN model, trained on a reorganized subset of the PlantVillage dataset, and deploying the trained model as a web application using Streamlit.
+A complete end-to-end deep learning project that detects tomato leaf diseases from images using a CNN model, trained on a reorganized subset of the PlantVillage dataset, and deployed the trained model as a web application using Streamlit.
 
 ---
 
