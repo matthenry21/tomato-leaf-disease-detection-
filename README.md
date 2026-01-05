@@ -1,6 +1,12 @@
 # ☘️ Tomato Leaf Disease Detection using Deep Learning
-
 A complete end-to-end deep learning project that detects tomato leaf diseases from images using a CNN model, trained on a reorganized subset of the PlantVillage dataset, and deployed the trained model as a web application using Streamlit.
+
+## Problem Statement:
+Tomato is one of the most widely cultivated and economically important crops in agriculture.However, tomato plants are highly susceptible to various leaf diseases such as Early Blight, Late Blight, Septoria Leaf Spot, Leaf Mold, and Bacterial Spot.These diseases significantly affect plant health, leading to reduced crop yield, poor fruit quality, and economic losses for farmers. Farmers often find it difficult to identify these diseases at an early stage, and expert help is not always available. Because of late detection, diseases spread quickly and cause major crop loss. Sometimes farmers also use the wrong or excess pesticides, which increases cost and harms the environment.
+
+To solve this problem, I built a Convolutional Neural Network (CNN) model to detect tomato leaf diseases from leaf images. The CNN automatically learns important features from the images and accurately classifies different types of leaf diseases.I deployed the trained CNN model using a Streamlit web application. This system helps farmers and agricultural workers detect diseases early and take timely action, reducing crop loss and improving productivity.
+
+
 
 ---
 
