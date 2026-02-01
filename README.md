@@ -60,7 +60,7 @@ app.py loads the trained model from model/ directory and provides:
 	1.	User uploads an tomato leaf image(.png etc)
 	2.	Image is resized to training input size
 	3.	Image is normalized
-	4.	Model predicts disease class
+	4.  Automatically detect the disease using a trained deep learning model 
 	5.	Output includes:
 	•	Disease name
 	•	Confidence score
@@ -68,6 +68,11 @@ app.py loads the trained model from model/ directory and provides:
 
 
 ---
+
+## 📽️ Streamlit App Demo vedio
+🔗
+https://www.icloud.com/iclouddrive/0d0lGwo16aQXI2po0VWuVPFNQ
+
 ## 🛠️ Tech Stack
     •	Python
 	•	TensorFlow / Keras
